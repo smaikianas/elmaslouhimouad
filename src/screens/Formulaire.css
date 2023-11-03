@@ -17,16 +17,16 @@
     background-size: cover;
     background-position: center;
     border-radius: 20px;
-    backdrop-filter: blur(10px);
     text-align: center;
-    width: 800px;
     margin: auto;
     margin-bottom: 20px;
     padding: 20px;
+    backdrop-filter: blur(20px) saturate(5%);
+    width: 65%;
+    border:3px rgb(29, 130, 197) solid;
   }
   body{
-    background:linear-gradient(rgba(0, 0, 0, 0.671),rgba(0, 0, 0, 0.055)), url(C:\Users\hp\Desktop\OIP.jfif);
-    text-transform: uppercase;
+    background:linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.055)), url(nature-background-24.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   } 

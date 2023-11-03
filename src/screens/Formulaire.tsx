@@ -6,23 +6,23 @@ export const Formulaire = () => {
         <form method='get' action='' className="mt-5 ">
             <div className="mb-3">
                 <label className=" block text" htmlFor="nom">Nom:</label>
-                <input type='text' name="nom" id="nom" placeholder='Entrez votre nom'/>
+                <input type='text' name="nom" id="nom" required placeholder='Entrez votre nom'/>
             </div>
             <div className="mb-3">
                 <label className="block" htmlFor="prenom">Prenom:</label>
-                <input type='text' name="prenom" id="prenom" placeholder='Entrez votre prenom'/>
+                <input type='text' name="prenom" id="prenom" required placeholder='Entrez votre prenom'/>
             </div>
             <div className="mb-3">
                 <label className="block" htmlFor="email">Email:</label>
-                <input className="border" type='email' name="email" id="email" placeholder='Votre Email'/>
+                <input className="border" type='email' name="email" id="email" required placeholder='Votre Email'/>
             </div>
             <div className="mb-3">
                 <label className="block" htmlFor="telephone">Telephone:</label>
-                <input type='adress' name="telephone" id="telephone" placeholder='Entrez votre telephone'/>
+                <input type='adress' name="telephone" id="telephone" required placeholder='Entrez votre telephone'/>
             </div>
             <div className="mb-3">
                 <label className="block text" htmlFor="titre">Titre de CV:</label>
-                <input type='text' name="titre" id="titre" placeholder='Entrez le titre de CV'/>
+                <input type='text' name="titre" id="titre" required placeholder='Entrez le titre de CV'/>
             </div>
             <div className="mb-3">
                 <label className="block" htmlFor="adress">Adress:</label>
@@ -42,7 +42,6 @@ export const Formulaire = () => {
             </div>
             <button id="submit" type="submit" className="block bg-[blue] text-[white] py-1 px-1 hover:bg-[black]">valider</button>
         </form>
-        
     </main>
     )
 }

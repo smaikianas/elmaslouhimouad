@@ -15,24 +15,10 @@ h1,footer{
   -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
 p{
-  padding: 4px;
-  padding-right: 8px;
-  margin-left: 30px;
   font-family:  'AR One Sans', sans-serif;
-  font-weight: 600;
+  text-align: center;
+  font-size:50px;
 }    
-p{
-    padding: 4px;
-    padding-right: 8px;
-    margin-left: 0px;
-    font-family: 'AR One Sans', sans-serif;
-}
-li{
-  padding: 4px;
-  padding-right: 8px;
-  margin-left: 50px;
-  font-family:  'AR One Sans', sans-serif;
-}
 h3{
 padding-left: 15px; 
 padding-right: 15px;
@@ -40,12 +26,14 @@ padding-bottom: 3px;
 color: rgb(0, 0, 0);
 font-size: 28px;
 text-decoration: underline;
-font-family:  'AR One Sans', cursive;
+font-family:  'Londrina Solid', cursive;
+font-weight: bolder;
 }
 h1{font-size: 45px;}
-p,pre{padding-left: 12px;
+p,pre{
+  font-weight: 600;
   color: aliceblue;
-  font-size:18px;
+  font-size:20px;
   word-wrap: break-word;
   }
 
@@ -53,3 +41,9 @@ h2{color: rgb(255, 255, 255);
   font-family:  'Londrina Solid', cursive;
   -webkit-text-stroke:0;}
 footer{padding-top: 50px;}
+img.h{
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}

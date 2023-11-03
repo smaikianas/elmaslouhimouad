@@ -3,6 +3,7 @@ export const CV = () => {
     return (
         <main>
         <h1>CV PERSONEL</h1><br></br>
+        <img className='h' src={require('./R.png')}></img><br></br>
             <h3>Nom:</h3>
             <p id="nom">El Maslouhi</p>
             <h3>Prenom:</h3>
