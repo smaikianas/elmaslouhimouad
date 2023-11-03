@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/elmaslouhimouad/static/css/main.0ebca9c8.css",
+    "main.js": "/elmaslouhimouad/static/js/main.9e36ffe6.js",
+    "static/js/89.9095d026.chunk.js": "/elmaslouhimouad/static/js/89.9095d026.chunk.js",
+    "static/media/nature-background-24.jpg": "/elmaslouhimouad/static/media/nature-background-24.0233af4b390c281f24c6.jpg",
+    "static/media/R.png": "/elmaslouhimouad/static/media/R.a63f19752ab9370f83c7.png",
+    "index.html": "/elmaslouhimouad/index.html",
+    "main.0ebca9c8.css.map": "/elmaslouhimouad/static/css/main.0ebca9c8.css.map",
+    "main.9e36ffe6.js.map": "/elmaslouhimouad/static/js/main.9e36ffe6.js.map",
+    "89.9095d026.chunk.js.map": "/elmaslouhimouad/static/js/89.9095d026.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ebca9c8.css",
+    "static/js/main.9e36ffe6.js"
+  ]
+}
