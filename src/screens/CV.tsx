@@ -5,9 +5,9 @@ export const CV = () => {
         <h1>CV PERSONEL</h1><br></br>
         <img className='h' src={require('./R.png')}></img><br></br>
             <h3>Nom:</h3>
-            <p id="nom">El Maslouhi</p>
+            <p id="nom">Smaiki</p>
             <h3>Prenom:</h3>
-            <p id="prenom">Mouad</p>
+            <p id="prenom">Anas</p>
             <h3>Age:</h3>
             <p id="age">20 ans</p>
             <br></br><hr></hr><br></br>
